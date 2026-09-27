@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Hari Terakhir: Install dependencies",
+      "type": "shell",
+      "command": "npm install",
+      "problemMatcher": []
+    },
+    {
+      "label": "Hari Terakhir: Dev server",
+      "type": "shell",
+      "command": "npm run dev",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Hari Terakhir: Build",
+      "type": "shell",
+      "command": "npm run build",
+      "problemMatcher": []
+    }
+  ]
+}
